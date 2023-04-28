@@ -1,8 +1,9 @@
 body{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
+
 header {
-    background: linear-gradient(#BBBBBB,white);
+    background-color: #BBBBBB;
     padding: 20px 0;
 }
 
@@ -86,7 +87,6 @@ footer{
     text-align: center;
     background: url(imagenes/bg.jpg);
     padding:40px;
-    box-shadow: 0px -10px 20px black ;
 }
 
 .copyright{
@@ -94,7 +94,6 @@ footer{
     font-size: 13px;
     margin:20px;
 }
-
 
 form{
     margin: 40px 0;
@@ -151,18 +150,15 @@ td,th{
 }
 
 /*Aquí inicia el CSS para nuestra home*/
-
 .banner{
     width: 100%;
 }
 
-
-
 .principal{
     padding: 3em 0;
-    background-color: white;
-    margin: 0 auto;
+    background: #FEFEFE;
     width: 940px;
+    margin: 0 auto; 
 }
 
 .titulo-principal{
@@ -189,51 +185,58 @@ td,th{
     float:left;
     margin: 0 20px 20px 0;
 }
+
 .mapa{
-    padding: 3EM 0;
-    background: linear-gradient(white,#BBBBBB);  
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888)
 }
+
 .mapa p{
     margin: 0 0 2em;
     text-align: center;
 }
+
 .mapa-contenido{
-       width: 940px;
+    width: 940px;
     margin: 0 auto;
 }
+
 .diferenciales{
     padding: 3em 0;
-    background:linear-gradient(#BBBBBB,#2a2a2a) ;
+    background: #888888;
 }
+
 .contenido-diferenciales{
     width: 640px;
     margin: 0 auto;
 }
 
 .lista-diferenciales{
-    vertical-align: top;
     width: 40%;
     display: inline-block;
+    vertical-align: top;
 }
+
 .items{
-    font-size: 1.2em;
     line-height: 1.5;
 }
+
 .items:before{
-    content: "✪";
+    content:"★"
 }
-.items:nth-child(1){
+
+.items:first-child{
     font-weight: bold;
 }
 
-.imagenDiferenciales{
+.imagen-diferenciales{
     width: 60%;
-    box-shadow: 10px 10px 30px 10px black ;
     transition: 400ms;
-   }
-.imagenDiferenciales:hover{
+    box-shadow: 10px 10px 30px 15px #000000;
+}
+
+.imagen-diferenciales:hover{
     opacity: 0.3;
-    
 }
 
 .video{
@@ -256,3 +259,4 @@ td,th{
     }
 
 }
+
