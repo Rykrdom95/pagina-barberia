@@ -58,7 +58,42 @@ form label ,form legend {
     margin: 20px 0;
 }
 
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border-radius: 15px;
+    border: none;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: green;
+    font-style: italic;
+    font-weight: bolder;
+    transform: scale(1.05);
+    
+    
 
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+   
+}
+td,th{
+    border: #000000 solid 1px;
+    padding: 8px 15px;
+}
 
 footer{
     text-align: center;
